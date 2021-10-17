@@ -6,3 +6,13 @@
     align-items: center;
 
 }
+#mainContant{
+
+    background-color: green;
+    height: 400px;
+
+}
+#foter{
+    background-color: grey;
+    height: 70px;
+}
