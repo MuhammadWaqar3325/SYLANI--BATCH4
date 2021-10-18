@@ -1,0 +1,58 @@
+.container{
+background-color: brown;
+
+}
+.header{
+    background-color: chartreuse;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.navebar{
+
+background-color: darkcyan;
+height: 60px;
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.centercontent{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* width: 50%; */
+    height: 400px;
+}
+
+.content{
+
+     background-color: cyan;
+     display: flex;
+     justify-content: center;
+     width: 25%;
+     align-items: center;
+
+
+}
+
+.maincontent{
+    background-color: gold;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: rgb(155, 216, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
