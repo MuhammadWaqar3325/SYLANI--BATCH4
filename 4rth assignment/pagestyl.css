@@ -41,24 +41,24 @@
     
     .content{
     
-         /* background-color:gainsboro;
+         background-color:gainsboro;
          display: flex;
          justify-content: center;
          width: 25%;
-         align-items: center; */
-         /* padding: 10px; */
+         align-items: center;
+         padding: 10px;
          /* margin: auto; */
-         /* margin: 10px; */
+         margin: 10px;
     
     
     }
     
     .maincontent{
-        /* background-color: gainsboro;
+        background-color: gainsboro;
         width: 50%;
         display: flex;
         justify-content: center;
-        align-items: center; */
+        align-items: center;
         /* padding: 10px; */
         margin-left: 10px;
         margin-right: 10px;
