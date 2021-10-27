@@ -9,12 +9,13 @@
         background-color: gainsboro;
         height: 100px;
         text-align: center;
-        display: flex;
+        /* display: flex; */
+        display:flexbox ;
         align-items: center;
         justify-content:space-between;
         /* margin: 10px; */
         margin-bottom: 10px;
-    
+    position: fixed;
         flex-direction: row;
         
     }
