@@ -301,7 +301,7 @@
      background-position: center;
      background-size: cover;
      border-radius: 10px;
-     
+    
  }    
  .story p{
      position: absolute;
@@ -311,19 +311,19 @@
      bottom: 10px;
  }
  .story1{
-    background-image: url(pic.jpg);
+    background-image: url(icon&imgs/waq1.jpg);
  }
  .story2{
-    background-image: url(pic2.jpg);
+    background-image: url(icon&imgs/pic2.jpg);
  }                                                  
  .story3{
-    background-image: url(pic3.jpg);
+    background-image: url(icon&imgs/pic3.jpg);
  }                                                  
  .story4{
-    background-image: url(pic1.jpg);
+    background-image: url(icon&imgs/pic1.jpg);
  }                                                  
  .story5{
-    background-image: url(pic5.jpg);
+    background-image: url(icon&imgs/pic5.jpg);
  } 
  
  .write-contanier{
