@@ -397,13 +397,13 @@
  .post-activity div img{
      margin-right: 20px;
  }
- @media screen and ( max-width:900px) {
-     .left-sidebar{
+ @media only screen and ( max-width:900px) {
+     .Left-sidebar{
          display: none;
         
      }
  }
- @media screen and ( max-width:830px) {
+ @media only screen and ( max-width:830px) {
     .right-sidebar{
         display: none;
        
