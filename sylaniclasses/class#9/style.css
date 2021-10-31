@@ -4,4 +4,11 @@
 }
 .col{
     height: 1500px;
+    border: 1px solid black;
+    margin: 5px;
+
+}
+.nav{
+    height: 50px;
+    width:auto;
 }
