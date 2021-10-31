@@ -1,4 +1,7 @@
-.container{
-     width: %;
+.container-fluid{
     background-color: aqua;
+    
+}
+.col{
+    height: 1500px;
 }
