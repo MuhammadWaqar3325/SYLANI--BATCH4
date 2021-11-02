@@ -1,19 +1,24 @@
-.container-fluid{
-    background-color: aqua;
-    
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.col{
-    height: 1500px;
-    border: 1px solid black;
-    margin: 5px;
+.Maincontent{
+    display: flex;
 
 }
-.nav{
-    height: 50px;
-    width:auto;
+
+
+
+
+.leftBar{
+    /* background-color: whitesmoke; */
+    flex-basis: 20%;
+   
+    position: sticky; 
+    align-self: flex-start;
+
 }
-.leftside{
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.leftBar{
+    text-align: center;
 }
