@@ -24,6 +24,11 @@
     text-align: center;
 }
 
+.icon{
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+}
 
 
 
