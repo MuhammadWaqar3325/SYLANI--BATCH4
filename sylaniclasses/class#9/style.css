@@ -11,14 +11,50 @@
 
 
 
-.leftBar{
-    /* background-color: whitesmoke; */
+.leftbar{
+    background-color: whitesmoke;
     flex-basis: 20%;
    
     position: sticky; 
     align-self: flex-start;
+    height: 1500px;
 
 }
-.leftBar{
+.leftbar{
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.maincontentbar{
+    flex-basis: 50%;
+    
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rightbar{
+    flex-basis: 30%;
+height: 1500px;    
+  
 }
