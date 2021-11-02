@@ -17,19 +17,56 @@
    
     position: sticky; 
     align-self: flex-start;
-    height: 1500px;
+    /* height: 1500px; */
 
 }
 .leftbar{
     text-align: center;
 }
-
-.icon{
+.iconfirst{
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    color: #00ACEE;
     cursor: pointer;
 }
 
+.icon{
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+}
+button{
+    padding: 8px 70px 8px 70px;
+   
+    background-color: #00ACEE;
+    font-weight: bold;
+    color: white;
+    border: white;
+   
+ }
+ div > .twiter{
+    font-size: 60px;
+    color: #00ACEE;
+   
+}
+
+.imgsection{
+    display: flex;
+}
+.imgsection > img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+   
+}
+.images{
+    display: flex;
+    align-items: center;
+}
+.images > img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
 
 
 
