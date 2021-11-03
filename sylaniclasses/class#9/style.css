@@ -68,7 +68,17 @@ button{
     margin-right: 15px;
 }
 
+.maincontantBar{
+    flex-basis: 50%;
+    
+}
 
+.navigationbar{
+    border: 5px solid rgb(231, 231, 231);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
