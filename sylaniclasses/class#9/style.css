@@ -91,6 +91,36 @@ button{
     
 }
 
+.iconsbar{
+    display: flex;
+    justify-content: space-between;
+}
+.btnbtn{
+    border-radius:40px !important;
+    border-color:white !important ;
+    background-color: #00ACEE !important;
+    font-weight: bold !important;
+}
+.icons{
+    color: #00ACEE;
+}
+.images{
+    display: flex;
+    align-items: center;
+}
+.images > img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.images > span{
+    opacity: 0.5;
+}
+
+.imagecard{
+    display: flex;
+    border: 2px solid rgb(231, 231, 231);
+    border-top:none ;
+}
 
 
 
