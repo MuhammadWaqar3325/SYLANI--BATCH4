@@ -15,7 +15,7 @@
     background-color: whitesmoke;
     flex-basis: 20%;
    
-    position: sticky; 
+    /* position: sticky;  */
     align-self: flex-start;
     /* height: 1500px; */
 
@@ -68,7 +68,7 @@ button{
     margin-right: 15px;
 }
 
-.maincontantBar{
+.maincontentbar{
     flex-basis: 50%;
     
 }
@@ -80,17 +80,22 @@ button{
     justify-content: space-between;
 }
 
-
-
-
-
-
-
-
-.maincontentbar{
-    flex-basis: 50%;
+.navigationbar > i{
+    font-size: 30px;
+    color: #00ACEE;
+}
+.imagecontent{
+    
+    border: 2px solid rgb(231, 231, 231);
+    border-bottom: 6px solid rgb(231, 231, 231);
     
 }
+
+
+
+
+
+
 
 
 
