@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+
+}
+.leftbar{
+    /* background-color: burlywood; */
+    flex-basis: 20%;
+    align-self: flex-start;
+}
+
+.icon{
+    display: flex;
+    align-items: baseline;
+    color: #00ACEE;
+    /* text-align: center; */
+    justify-content: center;
+    
+}
+
+
+
+
+.maincontent{
+    background-color: cadetblue;
+    flex-basis: 50%;
+}
+.rightbar{
+    align-self: flex-start;
+
+    flex-basis: 25%;
+    background-color: darkgoldenrod;
+}
+.twitIcon{
+          /* justify-content: center; */
+          text-align: center; 
+          padding: 10px 0px;
+          color: #00ACEE;
+          font-size: 60px;
+
+}
