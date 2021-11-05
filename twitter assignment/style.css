@@ -16,7 +16,13 @@
     justify-content: center;
     
 }
-
+.icon1{
+    display: flex;
+    align-items: baseline;
+    /* color: #00ACEE; */
+    /* text-align: center; */
+    justify-content: center;
+}
 
 
 
