@@ -144,3 +144,63 @@ button{
 .roundedimg{
     border-radius: 20px;
 }
+
+.rightBar{
+    flex-basis: 30%;
+    position: sticky;
+    top: 0px;
+  
+    align-self: flex-start;
+}
+
+.inputsearch{
+    border-radius: 25px !important;
+}
+.box{
+    /* text-align: center; */
+    margin-top: 20px;
+     padding-top: 10px;
+     padding-bottom: 5px;
+     padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(200, 200, 200);
+  
+}
+.boxing{
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px;
+}
+
+.box > p{
+    font-weight: bold;
+}
+ .box1{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+   padding-right: 15px;
+   display:flex ;
+   justify-content: space-between;
+   background-color: whitesmoke;
+   border-top: white;
+ }   
+
+.boxing{
+    background-color: whitesmoke;
+}
+
+
+
+.addd{
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+.boxe{
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+   padding-right: 15px;
+}
