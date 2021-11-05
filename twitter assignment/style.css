@@ -204,3 +204,20 @@ button{
     padding-left: 15px;
    padding-right: 15px;
 }
+
+@media only screen and (max-width: 700px) {
+    .rightBar{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .maincontantBar {
+      flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .leftBar {
+      display: none;
+    }
+}
