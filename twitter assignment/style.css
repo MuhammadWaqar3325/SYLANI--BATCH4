@@ -4,7 +4,7 @@
 }
 .leftbar{
     /* background-color: burlywood; */
-    flex-basis: 20%;
+    flex-basis: 25%;
     align-self: flex-start;
 }
 
