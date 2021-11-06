@@ -15,7 +15,7 @@
 //   Get the + button Element
 let myCounter = 0;
 const plusButton = document.getElementById("plusButton");
-const plusButton = document.getElementById("minusButton");
+const minusButton = document.getElementById("minusButton");
 
 const result = document.getElementById("result");
 
@@ -49,9 +49,9 @@ plusButton.addEventListener("click",function (){
 
 );
 
-plusButton.addEventListener("click",function (){
-   myCounter = myCounter + 1;
-   result.innerText = myCounter;
+minusButton.addEventListener("click",function (){
+   myCounter = myCounter - 1;
+   result.innerText = myCounter;});
 
 
 
