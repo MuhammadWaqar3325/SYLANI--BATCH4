@@ -7,13 +7,34 @@
     <title>Counter</title>
   </head>
   <body>
-    <!-- <h1 id="result">0</h1>
+    <h1 id="result">0</h1>
+    <input type="number" placeholder="number 1" id="numberOne">
+    <input type="number" placeholder="number 2" id="numberTwo">
+
+
+
     <button id="plusButton">+</button>
-    <button id="minusButton">-</button> -->
+    <button id="minusButton">-</button>
+    <button id="multiplyButton">*</button>
+    <button id="divideButton">/</button>
+
   </body>
   <script>
+const plusButton = document.getElementById("plusButton");
+const plusButton = document.getElementById("minusButton");
+
+const plusButton = document.getElementById("multiplyButton");
+const plusButton = document.getElementById("divideButton");
 
 
+
+
+plusButton.onclick = function(){
+    const valueOne = parseInt(inputOne.value);
+    const valueTwo = parseInt(inputTwo.value);
+    result.innerText = valueOne + valueTwo;
+}
+    
 
 
 
