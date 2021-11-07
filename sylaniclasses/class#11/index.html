@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    <h1 id="result">0</h1>
+    <button id="plusButton">+</button>
+    <button id="minusButton">-</button>
+</body>
+<script>
+//   Get the + button Element
+let myCounter = 0;
+const plusButton = document.getElementById("plusButton");
+const minusButton = document.getElementById("minusButton");
+
+const result = document.getElementById("result");
+
+// anonymous function
+plusButton.addEventListener("click",function (){
+   myCounter = myCounter + 1;
+   result.innerText = myCounter;
+   
+   
+   
+   
+   
+   
+   
+    // result.innerText="Waqar";
+    
+
+
+
+
+
+
+
+    // console.log("1");
+    // console.log("2");
+    // console.log("3");
+    // console.log("4");
+    // console.log("5");
+   
+}
+
+);
+
+minusButton.addEventListener("click",function (){
+   myCounter = myCounter - 1;
+   result.innerText = myCounter;});
+
+
+
+
+
+
+// plusButton.addEventListener("click");
+// function testFun(){
+//     console.log("1");
+//     console.log("2");
+//     console.log("3");
+//     console.log("4");
+//     console.log("5");
+//     console.log("6");
+// }
+// testFun()
+// testFun()
+// testFun()
+// testFun()
+// testFun()
+// function testFun(){
+//     console.log("1++");
+// }
+
+
+
+
+
+//   Get h1 element content 
+// plusButton.innerText = "Ali";
+// result.innerText = "Waqar";
+//   Increase the value of content in h1 11
+</script>
+</html>
