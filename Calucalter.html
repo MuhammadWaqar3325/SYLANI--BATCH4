@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+  </head>
+  <body>
+    <!-- <h1 id="result">0</h1>
+    <button id="plusButton">+</button>
+    <button id="minusButton">-</button> -->
+    <h1 id="result">0</h1>
+    <input type="number" placeholder="number 1" id="numberOne" />
+    <input type="number" placeholder="number 2" id="numberTwo" />
+    <button id="plusButton">+</button>
+    <button id="minusButton">-</button>
+    <button id="multiplyButton">*</button>
+    <button id="divideButton">/</button>
+  </body>
+  <script>
+    const plusButton = document.getElementById("plusButton");
+    const result = document.getElementById("result");
+    const inputOne = document.getElementById("numberOne");
+    const inputTwo = document.getElementById("numberTwo");
+    plusButton.onclick = function () {
+      const valueOne = parseInt(inputOne.value);
+      const valueTwo = parseInt(inputTwo.value);
+      result.innerText = valueOne + valueTwo;
+    };
+    // const myPc = {
+    //   ram: 8,
+    // };
+    // // console.log(myPc);
+    // myPc.ram = 16;
+    // myPc.graphicCard = 6;
+    // // console.log(myPc);
+    // const myStudents = [
+    //   {
+    //     rollNo: 6642,
+    //     name: "Safyan",
+    //   },
+    //   {
+    //     rollNo: 6861,
+    //     name: "Ohad",
+    //   },
+    //   {
+    //     rollNo: 7078,
+    //     name: "Anas",
+    //   },
+    //   {
+    //     rollNo: 5158,
+    //     name: "Hamza",
+    //   },
+    // ];
+    // // console.log(myStudents[1].name);
+    // const mySelf = {
+    //   // property: value
+    //   // key: value
+    //   // key, value pair
+    //   name: "Amir Ali",
+    //   age: 24,
+    //   country: "Pakistan",
+    //   eating() {
+    //     console.log("I am eating rice");
+    //   },
+    //   // eating: function () {
+    //   //   console.log("I am eating rice");
+    //   // },
+    //   students: myStudents,
+    // };
+    // // Create a function that add 2 numbers
+    // function add(firstNumber, secondNumber) {
+    //   const result = firstNumber + secondNumber;
+    //   return { firstNumber: firstNumber, secondNumber, result };
+    // }
+    // const myResult = add(5, 3);
+    // console.log(myResult);
+    // console.log(add(5, 3)); // 12
+    // console.log(add(2, 2)); // 12
+    // console.log(add(6, 5)); // 12
+    // console.log(add(4, 3)); // 12
+  </script>
+</html>
