@@ -7,9 +7,10 @@ body{
     background-color: darkgrey;
 }
 .result{
-    width: 100px;
+width: 190px;
     background-color: grey;
     color: white;
+    margin: auto;
 }
 .clerbtn{
     background-color: goldenrod;
