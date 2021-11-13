@@ -7,12 +7,19 @@
     <title>Document</title>
   </head>
   <body>
-<form id="todoform">
-  <input type="text" name="" id="todoinput">
-   <button type="submit">Add</button>
+    <form id="todoform">
+      <input type="text" id="todoInput">
+      <button type="submit" >Add</button>
+  </form>
+  <ul id="todos"></ul>
+  
 
-</form>
-<ul id="todos"></ul>
+
+
+
+
+
+
 
 
 
@@ -31,15 +38,12 @@
   <script>
 
 const todos = [];
-document 
-       .getElementById("todoform")
-       .addEventListener("submit",function (event){
-        event.preventDefault();
-        const todoinput = document.getElementById("todoinput").value;
-        todos.push(todoinput);
-        console.log(todos);
-       }
-
+        document.getElementById("todoform") .addEventListener("submit", function (event) {
+            event.preventDefault();
+            const todoInput = document.getElementById("todoInput").value;
+            todos.push(todoInput);
+            console.log(todos); 
+        });
 
 
 
