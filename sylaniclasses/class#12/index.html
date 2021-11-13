@@ -7,11 +7,12 @@
     <title>Document</title>
   </head>
   <body>
+<form id="todoform">
+  <input type="text" name="" id="todoinput">
+   <button type="submit">Add</button>
 
-
-
-
-
+</form>
+<ul id="todos"></ul>
 
 
 
@@ -28,24 +29,82 @@
     </h2> -->
   </body>
   <script>
-function test(){
-    const a = 3;
 
-    if (true) {
-        // const a = 8;
-        console.log(a);
+const todos = [];
+document 
+       .getElementById("todoform")
+       .addEventListener("submit",function (event){
+        event.preventDefault();
+        const todoinput = document.getElementById("todoinput").value;
+        todos.push(todoinput);
+        console.log(todos);
+       }
 
-    }
-    console.log(a);
 
-}
+
+
+
+
+
+
+
+  //
+  //
+  //
+  // for(let a = 0; a < 10;a = a 1) {
+  //     console.log("a: ",a);
+      
+  //    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function test(){
+//     const a = 3;
+
+//     if (true) {
+//         const a = 8;
+//         console.log(a);
+
+//     }
+//     console.log(a);
+
+// }
 
 // function test2(){
 //     console.log(a);
 // }
 
-test();
+// test();
 // test2();
+
+
+
+
+
+
+
+
+
+
 
 
     // const isUserAuthenticated = true;
