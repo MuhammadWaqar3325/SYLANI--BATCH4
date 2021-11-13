@@ -1,10 +1,10 @@
-function getNumber(num){
+// function getNumber(num){
     
-    var result = document.getElementById("result");
-    result.value += num;
-}
+//     var result = document.getElementById("result");
+//     result.value += num;
+// }
 
-function clearResult(num){
-    var result = document.getElementById("result");
-    result.value +="";
-}
+// function clearResult(num){
+//     var result = document.getElementById("result");
+//     result.value +="";
+// }
