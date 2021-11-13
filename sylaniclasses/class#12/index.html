@@ -8,7 +8,8 @@
 </head>
 <body>
     <h2 id="result">
-
+<input type="number" placeholder="Enter Temperatur" id="tempInput">
+<button onclick="getResult"> Get suggestion</button>
     </h2>
 
 
@@ -21,6 +22,11 @@
     const temp = 20;
 
     // if keyword
+function getResult(){
+    const temp = parseInt(document.getElementById("tempInput"))
+}
+
+
 
     if (temp < 20){
         result.innerText = "please wear jecket before going outside"
