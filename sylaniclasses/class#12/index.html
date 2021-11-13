@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h2 id="result">
-<input type="number" placeholder="Enter Temperatur" id="tempInput">
-<button onclick="getResult"> Get suggestion</button>
-    </h2>
+  </head>
+  <body>
 
 
 
 
-</body>
-<script>
-    const isUserAuthenticated = true;
-    const result = document.getElementById("result")
-    const temp = 20;
-
-    // if keyword
-function getResult(){
-    const temp = parseInt(document.getElementById("tempInput"))
-}
 
 
 
-    if (temp < 20){
-        result.innerText = "please wear jecket before going outside"
-    }else if (temp >20 && temp < 30){
-        result.innerText = "please wear jecket befor going outside"
-    }else if(temp > 30){
-        result.innerText = "please wear t-shirt befor"
 
-    }else {
-        result.innerText = "please wear whatever you like"
-    }
 
-  
+
+
     
+    <!-- <h2 id="result">
+      <input type="number" placeholder="Enter Temperatur" id="tempInput" />
+      <button onclick="getResult"
+      ondblclick="handleDoubleClick"
+      
+      >Get suggestion</button>
+    </h2> -->
+  </body>
+  <script>
 
-</script>
+
+
+
+
+
+
+
+
+    // const isUserAuthenticated = true;
+    // const result = document.getElementById("result");
+    // // const temp = 20;
+
+    // // if keyword
+    // function getResult() {
+    //   const temp = parseInt(document.getElementById("tempInput".value));
+    // }
+
+    // if (temp < 20) {
+    //   result.innerText = "please wear jecket before going outside";
+    // } else if (temp > 20 && temp < 30) {
+    //   result.innerText = "please wear jecket befor going outside";
+    // } else if (temp > 30) {
+    //   result.innerText = "please wear t-shirt befor";
+    // } else {
+    //   result.innerText = "please wear whatever you like";
+    // }
+  </script>
 </html>
