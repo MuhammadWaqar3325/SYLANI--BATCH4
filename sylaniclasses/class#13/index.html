@@ -22,15 +22,21 @@
             todos.push(todoInput);
             todosList.innerHTML = "";
             document.getElementById("todoInput").value = "";
+           
             console.log("todos", todos); 
-            for (let index = 0; index < todos.length; index++){
-                const todo = todos[index];
-                const newListItem = document.createElement("li");
-                newListItem.innerText = todo;
+            const newListItem = document.createElement("li");
+                newListItem.innerText = todoInput;
                 todosList.appendChild(newListItem);
                 console.log(newListItem); 
 
-            }
+            // for (let index = 0; index < todos.length; index++){
+            //     const todo = todos[index];
+            //     const newListItem = document.createElement("li");
+            //     newListItem.innerText = todo;
+            //     todosList.appendChild(newListItem);
+            //     console.log(newListItem); 
+
+            // }
         });
 </script>
 </html>
