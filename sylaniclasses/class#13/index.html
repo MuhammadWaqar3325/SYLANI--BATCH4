@@ -18,12 +18,16 @@
         document.getElementById("todoform") .addEventListener("submit", function (event) {
             event.preventDefault();
             const todoInput = document.getElementById("todoInput").value;
+            const todosList = document.getElementById("todos")
             todos.push(todoInput);
             document.getElementById("todoInput").value = "";
             console.log("todos", todos); 
             for (let index = 0; index < todos.length; index++){
-                const element = todos[index];
-                console.log(element); 
+                const todo = todos[index];
+                const newListItem = document.createElement("li");
+                newListItem.innerText = todo;
+                todosList.appendChild(newListItem);
+                console.log(newListItem); 
 
             }
         });
