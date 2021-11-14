@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="todoform">
+        <input type="text" id="todoInput">
+        <button type="submit" >Add</button>
+    </form>
+    <ul id="todos"></ul>
+</body>
+<script>
+    const todos = [];
+        document.getElementById("todoform") .addEventListener("submit", function (event) {
+            event.preventDefault();
+            const todoInput = document.getElementById("todoInput").value;
+            todos.push(todoInput);
+            document.getElementById("todoInput").value = "";
+            // console.log(todos); 
+            for (let index = 0; index < todos.length; index++){
+                const element = todos[index];
+                console.log(todos); 
+
+            }
+        });
+</script>
+</html>
