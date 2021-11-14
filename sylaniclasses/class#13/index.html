@@ -26,6 +26,17 @@
             console.log("todos", todos); 
             const newListItem = document.createElement("li");
                 newListItem.innerText = todoInput;
+                deleteButton.innerText = "delete";
+                deleteButton.onclick = function(){
+                    // console.log("Befor filter: ",todos);
+                    const filterArr = todos.filter(function (arrElement){
+                        // console.log(todoInput);
+                        
+                        return todoInput !== arrElement;
+                    });
+                    // console.log("After filter:",filteredArr);
+
+                };
                 todosList.appendChild(newListItem);
                 console.log(newListItem); 
 
