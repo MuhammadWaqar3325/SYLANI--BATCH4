@@ -26,3 +26,11 @@ button:hover {
 #result{
 	height: 120px;
 }
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: rgb(160, 157, 157);
+}
