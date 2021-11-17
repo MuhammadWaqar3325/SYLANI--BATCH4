@@ -34,3 +34,12 @@ button:hover {
 	font-size: 15px;
 	color: rgb(160, 157, 157);
 }
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keyboard{
+	height: 400px;
+}
