@@ -77,3 +77,7 @@ button:nth-child(12){
 	font-size: 20px;
 	background-color: #f08080;
 }
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #7d93e0;
+}
