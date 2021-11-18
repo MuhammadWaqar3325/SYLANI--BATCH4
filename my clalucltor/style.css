@@ -73,3 +73,7 @@ button:nth-child(8){
 	font-size: 20px;
 	background-color: #ffa500;
 }
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #f08080;
+}
