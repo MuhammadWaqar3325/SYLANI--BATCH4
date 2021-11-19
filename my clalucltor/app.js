@@ -23,3 +23,6 @@ function getFormattedNumber(num) {
 	var value = n.toLocaleString("en");
 	return value;
 }
+function reverseNumberFormat(num) {
+	return Number(num.replace(/,/g, ''));
+}
