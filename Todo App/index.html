@@ -22,20 +22,22 @@
   <script>
     let todos = [];
 
-    function saveTodosInLocalStorage() {
-      localStorage.setItem("todos", JSON.stringify(todos));
-    }
+    // function saveTodosInLocalStorage() {
+    //   localStorage.setItem("todos", JSON.stringify(todos));
+    // }
 
-    function getTodosFromLocalStorage() {
-      const stringifyTodos = localStorage.getItem("todos");
+    // function getTodosFromLocalStorage() {
+    //   const stringifyTodos = localStorage.getItem("todos");
 
       // undefined, null, 0, "" -> false
       // {}, [], 56, "asdasd" -> true
-      if (stringifyTodos) {
-        todos = JSON.parse(stringifyTodos);
-        renderMyTodoList();
-      }
-    }
+
+
+    //   if (stringifyTodos) {
+    //     todos = JSON.parse(stringifyTodos);
+    //     renderMyTodoList();
+    //   }
+    // }
     document
       .getElementById("todoForm")
       .addEventListener("submit", function (event) {
