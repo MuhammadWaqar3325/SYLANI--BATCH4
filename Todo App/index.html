@@ -103,9 +103,9 @@
         const newListItem = document.createElement("li");
         const deleteButton = document.createElement("button");
         const updateButton = document.createElement("button");
-        newListItem.innerText = todoInput;
-        deleteButton.innerText = "delete";
-        updateButton.innerText = "Update";
+        // newListItem.innerText = todoInput;
+        // deleteButton.innerText = "delete";
+        // updateButton.innerText = "Update";
         deleteButton.onclick = function () {
           const filteredArr = todos.filter(function (arrElement) {
             return todoInput !== arrElement;
