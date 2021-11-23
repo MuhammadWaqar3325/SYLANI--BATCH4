@@ -15,7 +15,14 @@ function printOutput(num) {
 		document.getElementById("output-val").innerText = getFormattedNumber(num);
 	}
 }
-
+function getFormattedNumber(num) {
+	if (num == "-") {
+		return "";
+	}
+	var n = Number(num);
+	var value = n.toLocaleString("en");
+	return value;
+}
 function reverseNumberFormat(num) {
 	return Number(num.replace(/,/g, ''));
 }
