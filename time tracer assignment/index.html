@@ -54,5 +54,15 @@ button2.onclick = function(){
 button3.onclick = function(){
     tellMeTime("btn-3")
 }
+//  Curent Day:
+cDay.onclick=function(){
+    var namesOfDays = ["Sunday", "Monday", "Tuesday", "Wednesday","Thursday","Friday","SATURADY"];
+    var namesOfMonth = [""]
+    var now = new Date();
+    var theDay = now.getDay();
+    var theMon = now.getMonth();
+    var todayName = namesOfDays[theDay];
+    resultToShow.innerHTML=todayName + " and " +theMon ;
+}
 </script>
 </html>
