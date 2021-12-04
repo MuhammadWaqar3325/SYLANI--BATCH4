@@ -7,6 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <input type="button" value="submit" onclick="subData()">
+    <h1>
+        Number is: <span id="result"></span>
+    </h1>
 </body>
+<script>
+    // let name 
+    let result = document.getElementById('result');
+    function subData(){
+        let rendomNumber = Math.random();
+        let extactNumber = (rendomNumber * 6) + 1;
+        result.innerHTML = Math.floor(extactNumber);
+    }
+</script>
 </html>
