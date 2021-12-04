@@ -32,4 +32,17 @@
 <h2 id="resultToShow"></h2>
     <script src="sc.js" ></script>
 </body>
+<script>
+function tellMeTime(bName) {
+    var now = new Date();
+    var theHr = now.getHours();
+    var theMin = now.getMinutes();
+    var theSec = now.getSeconds();
+    
+    resultToShow.innerHTML += "You clicked" + " '"+bName + "' "+ "@"
+    
+    + theHr +":" + theMin + ":" + theSec + "<br>";
+}
+
+</script>
 </html>
