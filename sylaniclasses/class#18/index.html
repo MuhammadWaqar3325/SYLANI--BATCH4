@@ -7,37 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <form id="todoForm">
-        <input type="text" id="todoInput"  placeholder="Enter Your income"/>
-        <button type="submit" id="todoSubmitButton">find</button>
-       
-        </button>
-      </form>
-      <ul id="todos"></ul>
+  <input type="text" placeholder="Please Enter Amount" id="amount" onchange="getTexAmount()">
 
-
-</body>
+<button type="submit" onclick="showField()" >Get Amount</button>
+<br>
+<hr>
+<br>
+<h1>Actual Amount: <span id="actualAmount">Actual Amount</span></h1>
+<h1>Tax Amount: <span id="afterTexAmount">Actual Amount</span></h1>
+</body> 
 <script>
+let amount = document.getElementById('amount');
+let actualAmount = document.getElementById('actualAmount');
+let afterTexAmount = document.getElementById('afterTexAmount');
 
-let todos = [];
- document
-      .getElementById("todoForm")
-      .addEventListener("submit", function (event) {
-        event.preventDefault();
-        const todoInput = document.getElementById("todoInput").value;
-        const todosList = document.getElementById("todos");
-        todos.push(todoInput);
-        document.getElementById("todoInput").value = "";
-        const newListItem = document.createElement("li");
-        const deleteButton = document.createElement("button");
-        const updateButton = document.createElement("button");
-        newListItem.innerText = todoInput;
-        // deleteButton.innerText = "delete";
-ft
-
-        todosList.appendChild(newListItem);
-        todosList.appendChild(deleteButton);
-      });
 </script>
 </html>
