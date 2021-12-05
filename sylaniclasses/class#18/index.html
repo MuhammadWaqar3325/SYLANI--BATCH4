@@ -21,5 +21,30 @@ let amount = document.getElementById('amount');
 let actualAmount = document.getElementById('actualAmount');
 let afterTexAmount = document.getElementById('afterTexAmount');
 
+amount.style.display = "none";
+function showField(){
+
+let ProAmount = prompt ("Enter Your Amount?");
+
+
+  if (ProAmount >= 50000)
+  {
+    actualAmount.innerText = ProAmount;
+    let calTax = (ProAmount / 100) * 16;
+    let actualTaxAm = ProAmount - calTax;
+    afterTexAmount.innerText = actualTaxAm;
+
+  }
+
+  else if (ProAmount < 50000)
+  {
+    actualAmount.innerText = ProAmount;
+    let calTax = (ProAmount / 100) * 11;
+    let actualTaxAm = ProAmount - calTax;
+    afterTexAmount.innerText = actualTaxAm;
+
+  }
+
+}
 </script>
 </html>
