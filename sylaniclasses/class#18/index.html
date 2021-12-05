@@ -8,18 +8,36 @@
 </head>
 <body>
     
-    <input type="text" placeholder="Enter your Income" id="inputBox">
-    <button id="buttonfind" >Find</button>
-
+    <form id="todoForm">
+        <input type="text" id="todoInput"  placeholder="Enter Your income"/>
+        <button type="submit" id="todoSubmitButton">find</button>
+       
+        </button>
+      </form>
+      <ul id="todos"></ul>
 
 
 </body>
 <script>
-const inputBox = document.getElementById("inputBox");
-const button = document.getElementById("buttonfind");
 
+let todos = [];
+ document
+      .getElementById("todoForm")
+      .addEventListener("submit", function (event) {
+        event.preventDefault();
+        const todoInput = document.getElementById("todoInput").value;
+        const todosList = document.getElementById("todos");
+        todos.push(todoInput);
+        document.getElementById("todoInput").value = "";
+        const newListItem = document.createElement("li");
+        const deleteButton = document.createElement("button");
+        const updateButton = document.createElement("button");
+        newListItem.innerText = todoInput;
+        // deleteButton.innerText = "delete";
+ft
 
-
-
+        todosList.appendChild(newListItem);
+        todosList.appendChild(deleteButton);
+      });
 </script>
 </html>
