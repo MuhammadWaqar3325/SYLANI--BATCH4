@@ -22,14 +22,24 @@
 </body>
 <script>
 
-const userJSONData = `{
-    "name": "Alex C",
-    "age": 2,
-    "city": "Huston"
-}`;
+// const userJSONData = `{
+//     "name": "Alex C",
+//     "age": 2,
+//     "city": "Huston"
+// }`;
 
-const userObj = JSON.parse(userJSONData);
-console.log(userObj)
+// const userObj = JSON.parse(userJSONData);
+// console.log(userObj)
 
+
+
+const userObj = {
+    name: 'Alex C', 
+    age: 2, 
+    city: 'Huston'
+}
+
+const userJSONData = JSON.stringify(userObj);
+console.log(userJSONData);
 </script>
 </html>
