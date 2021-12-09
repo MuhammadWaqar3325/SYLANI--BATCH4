@@ -21,7 +21,7 @@
       </div>
     </nav>
     <main>
-<div class="man body">
+<div class="main body">
     <h2>
         background Color : <span class="color">
         #f1f5f8
@@ -33,19 +33,20 @@
       
 </body>
 <script>
-    const color = ["green", "red", "rgba(133,122,200)","#f15025"];
+    const colors = ["green", "red", "rgba(133,122,200)","#f15025"];
      const btn = document.getElementById('btn');
      const color = document.querySelector(".color");
 
     btn.addEventListener("click",function(){
        const randomNumber = getRandomnmber();
        console.log(randomNumber);
-       
+
        document.body.style.backgroundColor = colors[randomNumber];
        color.textContet = colors[randomNumber];
     });
     function getRandomnmber(){
-        return Math.random();
+        return Math.floor(Math.random() * colors.length);
     }
+
 </script> 
 </html>
