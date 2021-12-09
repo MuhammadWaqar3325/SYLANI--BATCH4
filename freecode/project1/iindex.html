@@ -15,7 +15,7 @@
                   <a href="iindex.html">simple</a>
               </li>
               <li>
-                <a href="hex.html">hex</a>
+                <a href="hex.html ">hex</a>
             </li>
           </ul>
       </div>
@@ -38,9 +38,14 @@
      const color = document.querySelector(".color");
 
     btn.addEventListener("click",function(){
-       const randomNumber = 2;
+       const randomNumber = getRandomnmber();
+       console.log(randomNumber);
+       
        document.body.style.backgroundColor = colors[randomNumber];
        color.textContet = colors[randomNumber];
     });
-</script>
+    function getRandomnmber(){
+        return Math.random();
+    }
+</script> 
 </html>
