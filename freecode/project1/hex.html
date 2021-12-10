@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Change Hex BackgroundColor </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>BackgroundColor: <span id="hex-value"></span></h1> 
+       
+    </div>
+    <div class="btn">
+    <button id="btn">ClickMe</button>
+    </div>
 </body>
+<script src="app.js"></script>
+<script>
+    (function (){
+   const butt = document.getElementById("btn")
+   const body = document.querySelector("body")
+//    const hexValue = [1,2,3,4,5,6,7,8,9,"A","B","C","D","E"];
+   const hexValue = ["red","blue","green","yellow"]
+   const value = document.querySelector("#hex-value")
+
+
+   butt.addEventListener("click", changeColors)
+
+    function changeColors(){
+        let hex = "";
+        for (let i = 0; i < 1; i++) {
+            const index = Math.floor(Math.random() * hexValue.length) ;
+           hex += hexValue[index];
+
+            
+            
+        }
+        value.textContent= hex
+        body.style.backgroundColor = hex;
+        
+    }
+})();
+</script>
 </html>
