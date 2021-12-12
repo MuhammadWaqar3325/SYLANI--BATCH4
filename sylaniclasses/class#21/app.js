@@ -15,3 +15,5 @@ console.log(obj.getName());
 
 
 // alert ("hello");
+const names = prompt ("Enter your name");
+document.write(names)
