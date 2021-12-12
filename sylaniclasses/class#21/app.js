@@ -6,9 +6,12 @@
 // Tecnical diff
 
 const obj = {
-    name: "Sylani"
+    name: "Sylani",
     getName: function(){
         return this.name;
     }
 };
 console.log(obj.getName());
+
+
+// alert ("hello");
