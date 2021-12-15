@@ -4,5 +4,18 @@
     box-sizing: border-box;
 }
 
+.container{
+    display: flex;
+    margin-top: 400px;
+    justify-content: center;
+    align-items: center;
 
+}
 
+.btn{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+
+}
