@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero {
+    min-height: 100vh;
+    background: url("person1.jpg") center/cover no-repeat;
+    display: grid;
+    place-items: center;
+  }
+  .banner {
+    /* background: var(--clr-white) !important;
+    padding: 4rem 0;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    text-align: center;
+    width: 90vw;
+    max-width: var(--fixed-width); */
+    background-color: white;
+    text-align: center;
+    width: 50vw;
+    padding: 4rem 0;
+    border-radius: 10px;
+  }
+  .modal-btn {
+    margin-top: 2rem;
+    /* background: var(--clr-primary-5); */
+    padding: 1rem 1rem;
+    border: none;
+   background-color: wheat !important;
+    cursor: pointer;
+    /* color: var(--clr-white); */
+  }
+  .modal-btn:hover {
+    background: transparent !important;
+    /* color: var(--clr-primary-5); */
+    background-color: rgb(46, 134, 248) !important;
+    color: white !important;
+  }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(73, 166, 233, 0.5);
+    display: grid;
+    place-items: center;
+    transition: var(--transition);
+    visibility: hidden;
+    z-index: -10;
+  }
+  /* OPEN/CLOSE  */
+  .open-modal {
+    visibility: visible;
+    z-index: 10;
+  }
+  .modal-container {
+    background-color: white;
+    border-radius: 10px;
+    width: 50vw;
+    height: 30vh;
+    max-width: var(--fixed-width);
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: relative;
+  }
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    color:darkred;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  .close-btn:hover {
+    color: darkred;
+    transform: scale(1.3);
+  }
