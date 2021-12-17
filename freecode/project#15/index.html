@@ -45,6 +45,34 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 <script>
- 
+    (function (){
+        const pitures = ["contBcg-0","contBcg-1","contBcg-2","contBcg-3","contBcg-4"]
+
+        // addEventListener
+        const buttons = document.querySelectorAll(".btn")
+        const  imgDiv = document.querySelector(".container-box")
+        let counter = 0
+
+        buttons.forEach(function (button) {
+            button.addEventListener("click", function (){
+                if (button.classList.contains("btn-left")) {
+                    counter--
+                    if (counter < 0) {
+                        counter = pitures.length-1 
+                    }
+                    imgDiv.style.backgroundImage = `url('./img/${pitures[counter]}.jpeg')`
+                }
+
+                if (button.classList.contains('btn-right')){
+        counter++
+        if(counter > pitures.length -1){
+          counter = 0
+        }
+        imgDiv.style.backgroundImage = `url('./img/${pitures[counter]}.jpeg')`
+      }
+            })
+        });
+
+    })()
 </script>
 </html>
