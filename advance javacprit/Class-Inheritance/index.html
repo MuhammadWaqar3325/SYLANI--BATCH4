@@ -13,13 +13,29 @@
 <script>
 
     class employee{
-        constructor(name){
-            console.log("Constructor : Employee" + name);
+        constructor(name, age , salary){
+            this.empname = name;
+            this.empage = age;
+            this.empsalary = salary;
+            console.log("Constructor : Employee");
+
+        }
+        info(){
+            document.write(`<h3>Employee Class</h3>
+            Name     : ${this.empname} <br>
+            Age  : ${this.empage} <br>
+            Name : ${this.empsalary} <br>
+            `)
         }
     }
+    
+   
+    
   class manager extends employee{
-
+   
   }
-    let a = new manager("Rana Waqar");
-</script> 
+
+    let a = new manager("Rana Waqar", 25, 20000);
+     a.info();
+    </script> 
 </html>
