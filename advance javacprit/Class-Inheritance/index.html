@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>advance JS</title>
-    <script>
-        class employee {
-            constructor(){
-                consol.log("Constructor : Employee");
-            }
-        }
-        class manager extends employee{
-            
-        }
-        let a = new employee();
-    </script> 
+  
 </head>
 <body>
     
 </body>
+<script>
 
+    class employee{
+        constructor(name){
+            console.log("Constructor : Employee" + name);
+        }
+    }
+  class manager extends employee{
+
+  }
+    let a = new manager("Rana Waqar");
+</script> 
 </html>
