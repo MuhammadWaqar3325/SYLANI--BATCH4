@@ -12,30 +12,128 @@
 </body>
 <script>
 
-    class employee{
-        constructor(name, age , salary){
-            this.empname = name;
-            this.empage = age;
-            this.empsalary = salary;
-            console.log("Constructor : Employee");
 
+
+class human {
+            constructor(name,age,heigth){
+                // console.log("Zaid ali")
+                this.name = name;
+                this.age = age;
+                this.heigth = heigth;
+            
+
+            }
+            info(){
+                console.log(
+
+                `Name :${this.name} <br>
+                Age :${this.age}<br> 
+                Heigth :${this.heigth}`)  
+            }
+          
         }
-        info(){
-            document.write(`<h3>Employee Class</h3>
-            Name     : ${this.empname} <br>
-            Age  : ${this.empage} <br>
-            Name : ${this.empsalary} <br>
-            `)
+
+        let a = new human("Rana sab",20,5.5);
+        a.info();
+
+        class student extends human {
+            constructor(name,age,heigth,rollno,section){
+
+
+                super(name,age,heigth);
+              
+
+                this.rollno = rollno;
+                this.section = section;
+            }
         }
-    }
+
+        let c = new student("Rana sab",20,5.5,5096,"A");
+        let b = new human("Rana sab",20,5.5);
+        
+        // console.log(b)
+
+        
+        
+       
+    //    var a = 2+2;
+    //    var a = 3+5;
+            // a = 2+8;
+    //   console.log(a)
+    // let a = 2+2;
+    // a = 3+5;
+    // console.log(a);
+      
+
+    // const a = "Zaid ali";
+    // console.log(a);
+
+    // const a = "Rana sab";
+    // console.log(a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // class employee {
+    //     constructor(name){
+    //         console.log("Constroctur method" + name)
+
+    //     }
+    //       info(){
+    //           console.log("Rana Waqar");
+    //       }
+    // }
+    // let a = new employee("yahoo baba");
+    // a.info();
+
+
+
+
+
+
+
+//     class employee{
+//         constructor(name, age , salary){
+//             this.empname = name;
+//             this.empage = age;
+//             this.empsalary = salary;
+//             console.log("Constructor : Employee");
+
+//         }
+//         info(){
+//             document.write(`<h3>Employee Class</h3>
+//             Name     : ${this.empname} <br>
+//             Age  : ${this.empage} <br>
+//             Name : ${this.empsalary} <br>
+//             `)
+//         }
+//     } 
     
    
     
-  class manager extends employee{
+//   class manager extends employee{
    
-  }
+//   }
 
-    let a = new manager("Rana Waqar", 25, 20000);
-     a.info();
+//     let a = new manager("Rana Waqar", 25, 20000);
+//      a.info();
     </script> 
 </html>
